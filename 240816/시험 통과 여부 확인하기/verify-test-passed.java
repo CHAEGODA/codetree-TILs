@@ -9,7 +9,7 @@ public class Main {
             System.out.println("pass");
         }
         else {
-            System.out.printf("%d more score",100 - n);
+            System.out.printf("%d more score\n",100 - n);
         }
     }
 }
