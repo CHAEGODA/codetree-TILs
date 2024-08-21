@@ -11,8 +11,11 @@ public class Main {
         else if(price >= 1000) {
             System.out.println("mask");
         }
-        else {
+        else if (price >= 500) {
             System.out.println("pen");
+        }
+        else {
+            System.out.println("no");
         }
     }
 }
