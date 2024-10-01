@@ -8,13 +8,10 @@ public class Main {
         a = sc.nextInt();
         b = sc.nextInt();
 
-        if(a >= 90)
-            if(b >= 95)
-                System.out.println("100000");
-            else if(b >= 90)
-                System.out.println("50000");
-            else
-                System.out.println("0");   
+        if(a >= 90 && b >= 95)
+            System.out.println("100000");
+        else if(a >= 90 && b >= 90)
+            System.out.println("50000");  
         else
             System.out.println("0");             
     }
