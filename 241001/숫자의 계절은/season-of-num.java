@@ -10,9 +10,8 @@ public class Main {
             System.out.println("Winter");
         else if(m > 8 || m < 12)
             System.out.println("Fall");
-        else if(m > 5) 
+        else if(m > 5 || m < 9) 
             System.out.println("Summer");
-        
         else    
             System.out.println("Spring");       
                   
