@@ -5,18 +5,11 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
         
-        int a, b, c, min;
+        int a, b, c;
         a = sc.nextInt();
         b = sc.nextInt();
-        c = sc.nextInt();
-        if(a < b)
-            min = a;
-        else    
-            min = b;
-        if(min > c)
-            min = c;        
-        
-        if(min == a)
+        c = sc.nextInt(); 
+        if(a <= b && a <= c)
             System.out.print("1 ");
         else   
             System.out.print("0 ");
