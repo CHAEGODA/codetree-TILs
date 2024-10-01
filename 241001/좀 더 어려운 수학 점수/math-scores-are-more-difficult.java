@@ -11,12 +11,8 @@ public class Main {
         bMath = sc.nextInt();
         bEng = sc.nextInt();
 
-        if(aMath > bMath)
+        if(aMath > bMath || (aMath == bMath) && (aEng > bEng))
             System.out.println("A");
-        else if((aMath == bMath) && (aEng > bEng))
-            System.out.println("A");
-        else if((aMath == bMath) && (aEng < bEng))
-            System.out.println("B");
         else    
             System.out.println("B");        
 
