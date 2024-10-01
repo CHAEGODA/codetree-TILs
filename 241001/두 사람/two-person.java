@@ -12,7 +12,7 @@ public class Main {
         c = sc.nextInt();
         d = sc.next();
 
-        if((a >= 19 && b.equals("M")) || (c >= 19|| d.equals("M")))
+        if((a >= 19 && b.equals("M")) || (c >= 19 && d.equals("M")))
             System.out.println("1");
         else
             System.out.println("0");    
