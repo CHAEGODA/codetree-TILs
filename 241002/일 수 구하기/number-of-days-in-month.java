@@ -17,6 +17,6 @@ public class Main {
             if(n % 2 == 1)
                 System.out.println("30"); 
             else
-                System.out.prntln("31");
+                System.out.println("31");
     }
 }
