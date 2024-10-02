@@ -8,9 +8,15 @@ public class Main {
         
         if(n == 2) 
             System.out.println("28");
-        else if(n == 4 || n == 6 || n == 9 || n == 11)
-            System.out.println("30");
+        else if(n <= 7)
+            if(n % 2 == 1)
+                System.out.println("31");
+            else    
+                System.out.println("30");
         else
-            System.out.println("31");        
+            if(n % 2 == 1)
+                System.out.println("30"); 
+            else
+                System.out.prntln("31");
     }
 }
